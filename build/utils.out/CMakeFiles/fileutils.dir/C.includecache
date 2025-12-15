@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/data/rknn_play/YOLOv5_RK3588_Imgae_Segmentation/utils/file_utils.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
