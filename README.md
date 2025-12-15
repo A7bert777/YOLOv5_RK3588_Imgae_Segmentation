@@ -14,9 +14,9 @@ src/main.cpp ：主程序运行文件
 
 src/postprocess.cpp: 模型推理后的后处理代码
 
-src/yolov5.cpp：模型初始化、推理、反初始化等函数代码
+src/yolov5_seg.cpp：模型初始化、推理、反初始化等函数代码
 
-include/postprocess.h、yolov5.h：各函数声明
+include/postprocess.h、yolov5_seg.h：各函数声明
 
 2.配置文件介绍
 
@@ -28,7 +28,7 @@ build 是编译位置
 
 inputimage 是输入图片所在文件夹
 
-outputimage 是输出图片所在文件夹
+build 同样输出图片所在文件夹
 
 model 是RKNN模型以及标签名txt文件所在文件夹
 
@@ -42,6 +42,6 @@ rknn_lib 是瑞芯微官方动态库librknnrt.so所在位置
 
 **③make**
 
-**④./rknn_yolov5_demo**
+**④./rknn_yolov5seg_demo ../model/yolov5carpetseg_best.rknn ../inputimage/0001.png**
 
 此处统一说明：加QQ后直接说问题和小星星截图，对于常见的相同问题，很多都已在CSDN博客中提到了（RKNN转换流程是统一的，可去博主所有的RKNN相关博客下去翻评论），已在评论中详细解释过的问题，不予回复。
