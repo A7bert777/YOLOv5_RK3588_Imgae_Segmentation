@@ -1,6 +1,6 @@
 # YOLOv5_RK3588_Imgae_Segmentation
 
-CSDN地址：[【YOLOv8部署至RK3588】模型训练→转换RKNN→开发板部署](https://blog.csdn.net/A_l_b_ert/article/details/141610417?spm=1001.2014.3001.5502)
+CSDN地址：[【YOLOv5seg部署RK3588】模型训练→转换RKNN→开发板部署](https://blog.csdn.net/A_l_b_ert/article/details/155947157?spm=1001.2014.3001.5502)
 
 QQ咨询（not free）：2506245294
 
